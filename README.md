@@ -1,73 +1,102 @@
-# Welcome to your Lovable project
+# Sorriso Cachoeirinha Digital
 
-## Project info
+Landing page moderna e responsiva para clínica odontológica em Cachoeirinha, RS.
 
-**URL**: https://lovable.dev/projects/8891aeb4-3602-4622-9e6a-223f7359c60e
+## Sobre
 
-## How can I edit this code?
+Site profissional desenvolvido para atrair pacientes em Cachoeirinha para tratamentos odontológicos, com foco em:
 
-There are several ways of editing your application.
+- Clareamento dental
+- Implantes dentários  
+- Estética dental
+- Aparelhos ortodônticos
+- Limpeza e profilaxia
 
-**Use Lovable**
+## Tecnologias
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8891aeb4-3602-4622-9e6a-223f7359c60e) and start prompting.
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Shadcn/ui
+- Lucide React (ícones)
 
-Changes made via Lovable will be committed automatically to this repo.
+## Funcionalidades
 
-**Use your preferred IDE**
+✅ Design responsivo e moderno
+✅ Otimização para SEO
+✅ Integração com WhatsApp
+✅ Animações suaves
+✅ Banner de cookies LGPD
+✅ Galeria de resultados
+✅ Formulário de contato
+✅ Localização com Google Maps
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Como executar localmente
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/sorriso-cachoeirinha-digital.git
+cd sorriso-cachoeirinha-digital
+```
 
-Follow these steps:
+2. Instale as dependências:
+```bash
+npm install
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Execute o projeto:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Acesse: http://localhost:8080
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deploy no GitHub Pages
 
-**Use GitHub Codespaces**
+1. No GitHub, vá em Settings > Pages
+2. Selecione "Deploy from a branch"
+3. Escolha a branch "gh-pages"
+4. Execute o deploy:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+npm run deploy
+```
 
-## What technologies are used for this project?
+## Estrutura do Projeto
 
-This project is built with:
+```
+src/
+├── components/          # Componentes React
+│   ├── ui/             # Componentes base (shadcn)
+│   ├── Header.tsx      # Cabeçalho com navegação
+│   ├── HeroSection.tsx # Seção principal
+│   └── ...
+├── assets/             # Imagens e recursos
+├── pages/              # Páginas
+└── lib/                # Utilitários
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
 
-## How can I deploy this project?
+## Personalização
 
-Simply open [Lovable](https://lovable.dev/projects/8891aeb4-3602-4622-9e6a-223f7359c60e) and click on Share -> Publish.
+Para personalizar o site para sua clínica:
 
-## Can I connect a custom domain to my Lovable project?
+1. **Informações da clínica**: Edite os dados em cada componente
+2. **Cores**: Modifique as variáveis CSS em `src/index.css`
+3. **Imagens**: Substitua as imagens em `src/assets/`
+4. **WhatsApp**: Atualize o número em `WhatsAppButton.tsx`
 
-Yes, you can!
+## SEO
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+O site está otimizado com:
+- Meta tags apropriadas
+- Títulos hierárquicos (H1, H2, H3)
+- Alt text em imagens
+- URLs amigáveis
+- Schema markup
+- Open Graph tags
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Licença
+
+Este projeto está sob licença MIT.
