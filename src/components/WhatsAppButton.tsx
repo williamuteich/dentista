@@ -1,15 +1,23 @@
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const WhatsAppButton = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [showMessage, setShowMessage] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
     }, 1000);
 
-    return () => clearTimeout(timer);
+    const messageTimer = setTimeout(() => {
+      setShowMessage(true);
+    }, 4000);
+
+    return () => {
+      clearTimeout(timer);
+      clearTimeout(messageTimer);
+    };
   }, []);
 
   const whatsappLink = "https://wa.me/5551996615024?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20odontológica.";
@@ -47,25 +55,34 @@ const WhatsAppButton = () => {
         </div>
       </a>
 
-      {/* Message Preview (appears occasionally) */}
-      <div className="absolute bottom-full right-0 mb-4 opacity-0 animate-[fadeInOut_8s_infinite_4s] pointer-events-none">
-        <div className="bg-white rounded-2xl shadow-lg p-4 max-w-80 w-80 border">
-          <div className="flex items-start space-x-3">
-            <div className="w-10 h-10 bg-[hsl(var(--dental-blue))] rounded-full flex items-center justify-center flex-shrink-0">
-              <span className="text-white font-bold text-sm">D</span>
-            </div>
-            <div className="flex-1">
-              <div className="font-semibold text-sm text-[hsl(var(--dental-blue))]">
-                Dra. Ana Souza
+      {/* Message Preview (appears once and stays) */}
+      {showMessage && (
+        <div className="absolute bottom-full right-0 mb-4 pointer-events-auto animate-fade-in">
+          <div className="bg-white rounded-2xl shadow-lg p-4 max-w-80 w-80 border relative">
+            <button
+              onClick={() => setShowMessage(false)}
+              className="absolute top-2 right-2 w-6 h-6 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors duration-200"
+              aria-label="Fechar mensagem"
+            >
+              <X className="w-3 h-3 text-gray-500" />
+            </button>
+            <div className="flex items-start space-x-3 pr-8">
+              <div className="w-10 h-10 bg-[hsl(var(--dental-blue))] rounded-full flex items-center justify-center flex-shrink-0">
+                <span className="text-white font-bold text-sm">D</span>
               </div>
-              <div className="text-sm text-muted-foreground">
-                Olá! Como posso ajudar com seu sorriso? 😊
+              <div className="flex-1">
+                <div className="font-semibold text-sm text-[hsl(var(--dental-blue))]">
+                  Dra. Ana Souza
+                </div>
+                <div className="text-sm text-muted-foreground">
+                  Olá! Como posso ajudar com seu sorriso? 😊
+                </div>
               </div>
             </div>
+            <div className="absolute bottom-0 right-6 w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-white transform translate-y-full"></div>
           </div>
-          <div className="absolute bottom-0 right-6 w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-white transform translate-y-full"></div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

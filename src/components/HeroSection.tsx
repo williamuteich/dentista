@@ -42,14 +42,14 @@ const HeroSection = () => {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                <Button className="btn-whatsapp text-lg px-8 py-4">
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                <Button className="btn-whatsapp text-lg px-8 py-4 w-full sm:w-auto">
                   <Phone className="w-5 h-5" />
                   Agendar pelo WhatsApp
                 </Button>
               </a>
               <Button 
-                className="btn-dental-outline text-lg px-8 py-4"
+                className="btn-dental-outline text-lg px-8 py-4 w-full sm:w-auto"
                 onClick={() => document.getElementById('sobre')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Conhecer a Clínica
@@ -89,11 +89,11 @@ const HeroSection = () => {
             </div>
             
             {/* Floating Badge */}
-            <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-6 shadow-[var(--shadow-card)] float-animation">
+            <div className="absolute -bottom-6 -left-6 lg:-left-6 left-4 right-4 lg:right-auto bg-white rounded-2xl p-4 lg:p-6 shadow-[var(--shadow-card)] float-animation">
               <div className="text-center">
-                <div className="text-3xl font-bold text-[hsl(var(--dental-blue))]">Avaliação</div>
-                <div className="text-lg font-semibold text-[hsl(var(--dental-success))]">GRATUITA</div>
-                <div className="text-sm text-muted-foreground">Sem compromisso</div>
+                <div className="text-2xl lg:text-3xl font-bold text-[hsl(var(--dental-blue))]">Avaliação</div>
+                <div className="text-base lg:text-lg font-semibold text-[hsl(var(--dental-success))]">GRATUITA</div>
+                <div className="text-xs lg:text-sm text-muted-foreground">Sem compromisso</div>
               </div>
             </div>
           </div>
