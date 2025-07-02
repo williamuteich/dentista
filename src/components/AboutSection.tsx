@@ -14,7 +14,7 @@ const AboutSection = () => {
             <div className="relative">
               <img 
                 src={dentistImage}
-                alt="Dra. Ana Souza - Dentista especialista em estética dental e reabilitação oral em Cachoeirinha"
+                alt="Dr. Lenon Uteich - Dentista especialista em estética dental e reabilitação oral em Cachoeirinha"
                 className="w-full max-w-md mx-auto rounded-3xl shadow-[var(--shadow-hero)]"
               />
               <div className="absolute -top-4 -right-4 bg-[hsl(var(--dental-blue))] text-white rounded-2xl p-4 float-animation">
@@ -27,12 +27,12 @@ const AboutSection = () => {
           <div className="space-y-8 fade-in-up">
             <div className="space-y-4">
               <h2 className="text-sm font-semibold uppercase tracking-wider text-[hsl(var(--dental-blue))]">
-                Sobre a Profissional
+                Sobre o Profissional
               </h2>
               <h3 className="text-4xl md:text-5xl font-bold">
-                <span className="gradient-text">Dra. Ana Souza</span>
+                <span className="gradient-text">Dr. Lenon Uteich</span>
                 <br />
-                <span className="text-2xl md:text-3xl text-muted-foreground font-medium">CRO-RS 12345</span>
+                <span className="text-2xl md:text-3xl text-muted-foreground font-medium">CRO-RS 54321</span>
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Especialista em <strong>Estética Dental e Reabilitação Oral</strong> com mais de 10 anos de experiência. 
@@ -90,7 +90,7 @@ const AboutSection = () => {
             <div className="pt-4">
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Button className="btn-dental-primary">
-                  Conhecer Mais Sobre a Dra. Ana
+                  Conhecer Mais Sobre o Dr. Lenon
                 </Button>
               </a>
             </div>

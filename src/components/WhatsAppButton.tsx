@@ -72,7 +72,7 @@ const WhatsAppButton = () => {
               </div>
               <div className="flex-1">
                 <div className="font-semibold text-sm text-[hsl(var(--dental-blue))]">
-                  Dra. Ana Souza
+                  Dr. Lenon Uteich
                 </div>
                 <div className="text-sm text-muted-foreground">
                   Olá! Como posso ajudar com seu sorriso? 😊

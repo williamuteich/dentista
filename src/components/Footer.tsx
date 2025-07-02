@@ -52,8 +52,8 @@ const Footer = () => {
                 <span className="text-[hsl(var(--dental-blue))] font-bold text-xl">D</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Dra. Ana Souza</h3>
-                <p className="text-white/80 text-sm">CRO-RS 12345</p>
+                <h3 className="text-xl font-bold">Dr. Lenon Uteich</h3>
+                <p className="text-white/80 text-sm">CRO-RS 54321</p>
               </div>
             </div>
             <p className="text-white/80 leading-relaxed mb-6">
@@ -171,7 +171,7 @@ const Footer = () => {
                 © {currentYear} | Clínica Odontológica em Cachoeirinha | Todos os direitos reservados.
               </p>
               <p className="text-white/60 text-sm mt-1">
-                Dra. Ana Souza - CRO-RS 12345 | Especialista em Estética Dental
+                Dr. Lenon Uteich - CRO-RS 54321 | Especialista em Estética Dental
               </p>
             </div>
             

@@ -25,7 +25,7 @@ const HeroSection = () => {
               
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Agende sua avaliação com uma clínica moderna, segura e com resultados comprovados. 
-                Transforme seu sorriso com a expertise da Dra. Ana Souza.
+                Transforme seu sorriso com a expertise do Dr. Lenon Uteich.
               </p>
             </div>
 

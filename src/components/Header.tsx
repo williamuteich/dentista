@@ -37,8 +37,8 @@ const Header = () => {
             <span className="text-white font-bold text-lg">D</span>
           </div>
           <div>
-            <h1 className="text-xl font-bold text-[hsl(var(--dental-blue))]">Dra. Ana Souza</h1>
-            <p className="text-sm text-muted-foreground">CRO-RS 12345</p>
+            <h1 className="text-xl font-bold text-[hsl(var(--dental-blue))]">Dr. Lenon Uteich</h1>
+            <p className="text-sm text-muted-foreground">CRO-RS 54321</p>
           </div>
         </div>
 
