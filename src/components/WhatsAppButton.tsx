@@ -48,8 +48,8 @@ const WhatsAppButton = () => {
       </a>
 
       {/* Message Preview (appears occasionally) */}
-      <div className="absolute bottom-full right-0 mb-4 opacity-0 animate-[fadeInOut_4s_infinite_3s] pointer-events-none">
-        <div className="bg-white rounded-2xl shadow-lg p-4 max-w-64 border">
+      <div className="absolute bottom-full right-0 mb-4 opacity-0 animate-[fadeInOut_8s_infinite_4s] pointer-events-none">
+        <div className="bg-white rounded-2xl shadow-lg p-4 max-w-80 w-80 border">
           <div className="flex items-start space-x-3">
             <div className="w-10 h-10 bg-[hsl(var(--dental-blue))] rounded-full flex items-center justify-center flex-shrink-0">
               <span className="text-white font-bold text-sm">D</span>

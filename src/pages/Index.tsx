@@ -11,6 +11,7 @@ import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
 import ScrollAnimations from '../components/ScrollAnimations';
+import CookieConsent from '../components/CookieConsent';
 
 const Index = () => {
   return (
@@ -30,6 +31,7 @@ const Index = () => {
       </main>
       <Footer />
       <WhatsAppButton />
+      <CookieConsent />
     </div>
   );
 };
