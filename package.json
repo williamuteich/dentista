@@ -1,8 +1,8 @@
 {
+  "namepage": "https://WilliamUteich14.github.io/sorriso-cachoeirinha-digital",
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://WilliamUteich14.github.io/sorriso-cachoeirinha-digital",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
