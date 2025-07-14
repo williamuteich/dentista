@@ -19,7 +19,7 @@ const ContactSection = () => {
     
     // Create WhatsApp message
     const whatsappMessage = `Olá! Meu nome é ${formData.name}.%0A%0A${formData.message}%0A%0AContatos:%0AEmail: ${formData.email}%0ATelefone: ${formData.phone}`;
-    const whatsappLink = `https://wa.me/5551996615024?text=${whatsappMessage}`;
+    const whatsappLink = `https://wa.me/5551991581059?text=${whatsappMessage}`;
     
     // Open WhatsApp
     window.open(whatsappLink, '_blank');

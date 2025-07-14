@@ -53,7 +53,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Dr. Lenon Uteich</h3>
-                <p className="text-white/80 text-sm">CRO-RS 54321</p>
+                <p className="text-white/80 text-sm">CRO 32301</p>
               </div>
             </div>
             <p className="text-white/80 leading-relaxed mb-6">
@@ -123,7 +123,7 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-white/80 mt-0.5 flex-shrink-0" />
                 <div>
                   <a 
-                    href="https://wa.me/5551996615024"
+                    href="https://wa.me/5551991581059"
                     className="text-white hover:text-white/80 transition-colors"
                   >
                     (51) 99661-5024
@@ -171,7 +171,7 @@ const Footer = () => {
                 © {currentYear} | Clínica Odontológica em Cachoeirinha | Todos os direitos reservados.
               </p>
               <p className="text-white/60 text-sm mt-1">
-                Dr. Lenon Uteich - CRO-RS 54321 | Especialista em Estética Dental
+                Dr. Lenon Uteich - CRO-RS 32301 | Especialista em Estética Dental
               </p>
             </div>
             

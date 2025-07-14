@@ -48,7 +48,7 @@ const FAQSection = () => {
     }
   ];
 
-  const whatsappLink = "https://wa.me/5551996615024?text=Olá!%20Tenho%20algumas%20dúvidas%20sobre%20os%20tratamentos%20e%20gostaria%20de%20agendar%20uma%20consulta.";
+  const whatsappLink = "https://wa.me/5551991581059?text=Olá!%20Tenho%20algumas%20dúvidas%20sobre%20os%20tratamentos%20e%20gostaria%20de%20agendar%20uma%20consulta.";
 
   return (
     <section id="faq" className="section-padding bg-[hsl(var(--dental-gray))]">

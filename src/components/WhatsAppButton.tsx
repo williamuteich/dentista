@@ -20,7 +20,7 @@ const WhatsAppButton = () => {
     };
   }, []);
 
-  const whatsappLink = "https://wa.me/5551996615024?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20odontológica.";
+  const whatsappLink = "https://wa.me/5551991581059?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação%20odontológica.";
 
   return (
     <div className={`fixed bottom-6 right-6 z-50 transition-all duration-500 ${

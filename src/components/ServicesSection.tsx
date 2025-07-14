@@ -2,7 +2,7 @@ import { Sparkles, Smile, Heart, Shield, Zap, Crown } from 'lucide-react';
 import { Button } from './ui/button';
 
 const ServicesSection = () => {
-  const whatsappLink = "https://wa.me/5551996615024?text=Olá!%20Gostaria%20de%20agendar%20um%20tratamento%20";
+  const whatsappLink = "https://wa.me/5551991581059?text=Olá!%20Gostaria%20de%20agendar%20um%20tratamento%20";
 
   const services = [
     {

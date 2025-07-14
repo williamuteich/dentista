@@ -49,7 +49,7 @@ const ResultsSection = () => {
     setCurrentSlide((prev) => (prev - 1 + results.length) % results.length);
   };
 
-  const whatsappLink = "https://wa.me/5551996615024?text=Olá!%20Vi%20os%20resultados%20dos%20tratamentos%20e%20gostaria%20de%20agendar%20uma%20avaliação.";
+  const whatsappLink = "https://wa.me/5551991581059?text=Olá!%20Vi%20os%20resultados%20dos%20tratamentos%20e%20gostaria%20de%20agendar%20uma%20avaliação.";
 
   return (
     <section id="resultados" className="section-padding bg-[hsl(var(--dental-gray))]">

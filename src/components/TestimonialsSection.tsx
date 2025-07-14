@@ -45,7 +45,7 @@ const TestimonialsSection = () => {
     }
   ];
 
-  const whatsappLink = "https://wa.me/5551996615024?text=Olá!%20Vi%20os%20depoimentos%20dos%20pacientes%20e%20gostaria%20de%20agendar%20uma%20consulta.";
+  const whatsappLink = "https://wa.me/5551991581059?text=Olá!%20Vi%20os%20depoimentos%20dos%20pacientes%20e%20gostaria%20de%20agendar%20uma%20consulta.";
 
   return (
     <section id="depoimentos" className="section-padding bg-white">

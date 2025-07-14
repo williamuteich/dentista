@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 import dentistImage from '../assets/dentist-portrait.jpg';
 
 const AboutSection = () => {
-  const whatsappLink = "https://wa.me/5551996615024?text=Olá!%20Gostaria%20de%20conhecer%20mais%20sobre%20a%20clínica%20e%20agendar%20uma%20consulta.";
+  const whatsappLink = "https://wa.me/5551991581059?text=Olá!%20Gostaria%20de%20conhecer%20mais%20sobre%20a%20clínica%20e%20agendar%20uma%20consulta.";
 
   return (
     <section id="sobre" className="section-padding bg-[hsl(var(--dental-gray))]">
@@ -32,7 +32,7 @@ const AboutSection = () => {
               <h3 className="text-4xl md:text-5xl font-bold">
                 <span className="gradient-text">Dr. Lenon Uteich</span>
                 <br />
-                <span className="text-2xl md:text-3xl text-muted-foreground font-medium">CRO-RS 54321</span>
+                <span className="text-2xl md:text-3xl text-muted-foreground font-medium">CRO 32301</span>
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Especialista em <strong>Estética Dental e Reabilitação Oral</strong> com mais de 10 anos de experiência. 
